@@ -21,6 +21,6 @@
     "express": "^5.3.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.11.4",
-    "mongoose-paginate-v2": "^1.9.5"
+    "mongoose-aggregate-paginate-v2": "^1.1.5"
   }
 }
