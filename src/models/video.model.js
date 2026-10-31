@@ -39,6 +39,7 @@ const videoSchema = new Schema(
   { timestamps: true }
 );
 
+// TODO: paginate the video to not show in one giant list
 videoSchema.plugin(mongooseAggregatePaginate);
 
 export const Video = mongoose.model("Video", videoSchema);
